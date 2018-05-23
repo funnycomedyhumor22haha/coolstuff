@@ -10,7 +10,7 @@ namespace coolstuff.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("The Moon");
-            Tooltip.SetDefault("40% Increased throwing damage, velocity and thrown weapons inflict celled debuff");
+            Tooltip.SetDefault("40% Increased throwing damage, velocity and all weapons inflict celled debuff");
 		}
         
 
