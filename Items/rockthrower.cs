@@ -28,8 +28,8 @@ namespace coolstuff.Items
             public override void UpdateAccessory(Player player, bool hideVisual)
         {
                 
-              player.thrownDamage += 0.40f; 
-              player.thrownVelocity += 0.40f;
+              player.thrownDamage += 0.05f; 
+              player.thrownVelocity += 0.05f;
 
             }
 
