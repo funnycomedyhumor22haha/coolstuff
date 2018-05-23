@@ -10,7 +10,7 @@ namespace coolstuff.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Adamantite Boulder");
-            Tooltip.SetDefault("20% Increased throwing damage, velocity and throwing speed");
+            Tooltip.SetDefault("20% Increased throwing damage and velocity");
 		}
 
         		public override void SetDefaults()
@@ -27,10 +27,17 @@ namespace coolstuff.Items
                 
               player.thrownDamage += 0.20f; 
               player.thrownVelocity += 0.20f;
-              player.thrownSpeed += 0.20f;
             }
 
-
+		public override void AddRecipes()
+		{
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(366, 28);
+            recipe.AddIngredient(3, 50);
+            recipe.AddIngredient(520, 5);
+			recipe.AddTile(134);
+			recipe.SetResult(this);
+        }
 
 
 	}
