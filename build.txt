@@ -1,4 +1,4 @@
 author = kate..thegamer
 version = 0.3
 displayName = Vaim
-homepage = 
+homepage = https://forums.terraria.org/index.php?threads/vaim-w-i-p-mod.69642/
