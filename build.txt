@@ -1,0 +1,4 @@
+author = kate..thegamer
+version = 0.3
+displayName = RAGE COMICS ARE FUNNY HAHA
+homepage = 
