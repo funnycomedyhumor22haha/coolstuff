@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace coolstuff.Items
 {
-    public class moonthrower : ModItem
+    public class boulderthrower : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -15,7 +15,23 @@ namespace coolstuff.Items
 
         		public override void SetDefaults()
 		{
-        item.accessory = true
-
-
+        item.accessory = true;
+        item.value = 0001000;
+        item.rare = 4;
+        item.thrown = true;
         }
+
+        
+           public override void UpdateAccessory(Player player, bool hideVisual)
+            {
+                
+              player.thrownDamage += 0.20f; 
+              player.thrownVelocity += 0.20f;
+              player.thrownSpeed += 0.20f;
+            }
+
+
+
+
+	}
+}

@@ -21,8 +21,7 @@ namespace coolstuff.Items
 			item.rare = 0;
             item.accessory = true;
             item.thrown = true;
-            item.defense = 1;
-           
+
 		}
         
             public override void UpdateAccessory(Player player, bool hideVisual)
