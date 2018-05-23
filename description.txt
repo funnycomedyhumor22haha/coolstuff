@@ -3,6 +3,10 @@ This mod will add accessories and weapons in the future.
 currently adds: 2 accessories and 1 post moon lord weapon
 
 
+v.0.4
+another name change
+a rock's stats have been changed
+
 v0.3
 changed name again
 added accesorries "The Moon" and "A Rock"
