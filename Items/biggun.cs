@@ -32,8 +32,11 @@ namespace coolstuff.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Meowmere, 2);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddIngredient(1265);
+			recipe.AddIngredient(3456, 13);
+			recipe.AddIngredient(3467, 9);
+			recipe.AddIngredient(3567, 333);
+			recipe.AddTile(412);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
