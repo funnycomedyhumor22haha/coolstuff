@@ -37,6 +37,7 @@ namespace coolstuff.Items
             recipe.AddIngredient(520, 5);
 			recipe.AddTile(134);
 			recipe.SetResult(this);
+            recipe.AddRecipe();
         }
 
 
