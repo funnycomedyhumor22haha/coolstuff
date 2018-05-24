@@ -1,7 +1,14 @@
 This mod will add accessories and weapons in the future.
 
-currently adds: 2 accessories and 1 post moon lord weapon
+currently adds: 4 accessories and 1 post moon lord weapon
 
+v.0.6
+added adamantite boulder and titanium boulder
+fixed description of the moon and a rock
+changed stats for a rock
+
+v.0.5
+test nothing added
 
 v.0.4
 another name change
